@@ -6,7 +6,7 @@ on:
       - main
   schedule:
       # Here you can change how often your backup runs. See https://crontab.guru/examples.html
-      - cron: "17 */2 * * *"
+      - cron: "17 */1 * * *"
 
 jobs:
   backup:
